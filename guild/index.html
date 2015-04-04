@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>GvG Management System</title>
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<meta name="keyword" content="">
+	<meta name="description" content="">
+	<link href="../css/init.css" rel="stylesheet" type="text/css" charset="utf-8" media="all">
+	<link href="../css/core.css" rel="stylesheet" type="text/css" charset="utf-8" media="all">
+	<link href="../css/style.css" rel="stylesheet" type="text/css" charset="utf-8" media="all">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="../js/core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/confirm.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<form method="post" id="inputForms">
+		<label for="guild">ギルド名 : </label><input id="guild" name="guild" type="text"><p class="confirms"></p><p id="guildText" class="popText">ギルド名を入力してください。</p><br>
+		<label for="mail">管理者メールアドレス : </label><input id="mail" name="mail" type="text"><p class="confirms"></p><p id="mailText" class="popText">メールアドレスを入力してください。</p><br>
+		<label for="level">権限レベル : </label><select id="level" name="level"><option>AAA</option><option>BBB</option><option>CCC</option></select><p class="confirms"></p><p id="levelText" class="popText">権限のレベルを入力してください。</p><br>
+		<button id="submitBtn">作成する</button>
+		<div id="isConfirms">
+			<p>こちらでよろしいでしょうか？</p>
+			<button id="submitOK">作成する</button>
+			<button id="reEdit">修正する</button>
+		</div>
+	</form>
+</body>
+</html>

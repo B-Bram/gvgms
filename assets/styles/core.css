@@ -1,0 +1,15 @@
+/* confirms */
+/* line 4, ../sass/core.scss */
+#inputForms {
+  position: relative;
+  top: 0;
+  left: 0; }
+
+/* line 9, ../sass/core.scss */
+.popText {
+  display: none;
+  position: absolute; }
+
+/* line 13, ../sass/core.scss */
+#isConfirms, .confirms {
+  display: none; }

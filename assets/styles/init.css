@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* line 3, ../sass/init.scss */
+body {
+  font: 12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳＰゴシック", sans-serif; }
+
+/* line 4, ../sass/init.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, ../sass/init.scss */
+fieldset, img {
+  border: 0; }
+
+/* line 6, ../sass/init.scss */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+/* line 7, ../sass/init.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 8, ../sass/init.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 9, ../sass/init.scss */
+caption, th {
+  text-align: left; }
+
+/* line 10, ../sass/init.scss */
+hr {
+  display: none; }
+
+/* line 12, ../sass/init.scss */
+.clearfix {
+  _height: 1px;
+  min-height: 1px; }
+
+/* line 13, ../sass/init.scss */
+.clearfix:after {
+  height: 0;
+  visibility: hidden;
+  content: ".";
+  display: block;
+  clear: both; }
